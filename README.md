@@ -9,7 +9,7 @@ In this tutorial, we'll explore how to model and solve a simplified version of t
 - The goal is to find the shortest possible route that visits each city exactly once and returns to the origin city.
 
 ### QUBO Formulation:
-- We'll represent the problem using binary variables $`\( x_{i,j} \)` where \( x_{i,j} = 1 \) if the salesman travels from city \( i \) to city \( j \), and \( x_{i,j} = 0 \) otherwise.
+- We'll represent the problem using binary variables $` x_{i,j} ` where \( x_{i,j} = 1 \) if the salesman travels from city \( i \) to city \( j \), and \( x_{i,j} = 0 \) otherwise.
 - The objective is to minimize the total distance traveled, which can be written as:
 \[ \text{Minimize } \sum_{i,j} d_{i,j} \cdot x_{i,j} \]
 where \( d_{i,j} \) is the distance between city \( i \) and city \( j \).
